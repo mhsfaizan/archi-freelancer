@@ -6,8 +6,8 @@ export default class Footer extends React.Component{
                 <div className='row'>
                     <div className="col-md-4">
                         <h3>About</h3>
-                        <ul className='inline-style'>
-                            <li>ourr Team</li>
+                        <ul>
+                            <li>Our Team</li>
                             <li>Brand guidelines</li>
                             <li>Terms & condition</li>
                             <li>Privacy policy</li>

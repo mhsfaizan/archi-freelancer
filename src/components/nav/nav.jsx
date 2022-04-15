@@ -5,12 +5,14 @@ export default class Nav extends React.Component{
         return (
             <nav className='bg-primary nav'>
                 <div className='container-fluid d-flex'>
-                    <h1 className='heading'><a className='text-white text-decoration-none' href="/">Archi Freelancer</a></h1>
-                    <ul className='inline-list'>
-                        <li><a className='text-white text-decoration-none' href="/how-it-work">How it works</a></li>
-                        <li><a className='text-white text-decoration-none' href="/services">Services</a></li>
-                        <li><a className='text-white text-decoration-none' href="/contact">Contacts</a></li>
-                    </ul>
+                    <h1 className='heading'><a className='text-white text-decoration-none' href="/"><img src='/images/logo.png' alt="logo" /> </a></h1>
+                    <div className='nav-right'>
+                        <ul className='inline-list'>
+                            <li><a className='text-white text-decoration-none' href="#">HOW IT WORKS</a></li>
+                            <li><a className='text-white text-decoration-none' href="#">SERVICES</a></li>
+                            <li><a className='text-white text-decoration-none' href="#">CONTACT </a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         );

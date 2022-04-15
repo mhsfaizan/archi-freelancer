@@ -8,22 +8,21 @@ export default class Home extends React.Component
     {
         const steps = [
             {
-                img: '',
+                img: '/images/select-service.png',
                 heading: 'Select service',
-                description: 'select the service you looking for and fill the detail and our team contact shortly'
+                description: 'Select the service you are looking for and fill the details our team will connect with you shortly'
 
             },
             {
-                img: '',
+                img: '/images/pay-safely.png',
                 heading: 'Pay safely',
-                description: 'Only pay when the task has been compelted.Only pay when the task has been compelted'
+                description: 'Only pay for work when it has been completed and you are 100% satisfied with the quality using our milestone payment system'
 
             },
             {
-                img: '',
+                img: '/images/help.png',
                 heading: 'We are here to help',
-                description: 'Our talented team of members can help you to find the best freelancer'
-
+                description: 'Our talented team of recruiters can help you find the best freelancer for the job and our technical co-pilots can even manage the project for you.'
             }
         ];
         return steps.map((step, index) => <WorkStep step={step} key={index} />);
@@ -32,39 +31,39 @@ export default class Home extends React.Component
     {
         const cards = [
             {
-                img: '',
-                heading: 'Working drawings',
-                description: 'select the service you looking for and fill the detail and our team contact shortly'
+                img: '/images/working-drawings.png',
+                heading: 'WORKING DRAWINGS',
+                description: 'Providing complete drawing solution on all softwares'
 
             },
             {
-                img: '',
-                heading: '3D Visualization',
-                description: 'Only pay when the task has been compelted.Only pay when the task has been compelted'
+                img: '/images/3d-visualization.png',
+                heading: '3D VISUALIZATION',
+                description: 'Complete 3D designs'
 
             },
             {
-                img: '',
-                heading: 'Structural drawing',
-                description: 'Our talented team of members can help you to find the best freelancer'
+                img: '/images/structural-design.png',
+                heading: 'STRUCTURAL DRAWING',
+                description: 'Complete Structural Solutions'
 
             },
             {
-                img: '',
-                heading: 'MEP consultation',
-                description: 'Our talented team of members can help you to find the best freelancer'
+                img: '/images/mep-consultation.png',
+                heading: 'MEP CONSULTATION',
+                description: 'Mechanical,Electrical and Plumbing Drawings'
 
             },
             {
-                img: '',
-                heading: 'BM Services',
-                description: 'Our talented team of members can help you to find the best freelancer'
+                img: '/images/bim-services.png',
+                heading: 'BIM SERVICES',
+                description: 'Complete Building Information Modelling'
 
             },
             {
-                img: '',
-                heading: 'Landscape design',
-                description: 'Our talented team of members can help you to find the best freelancer'
+                img: '/images/landscape-design.png',
+                heading: 'LANDSCAPE DESIGN',
+                description: 'Complete Landscape Design Services'
 
             }
         ];
@@ -82,15 +81,16 @@ export default class Home extends React.Component
                         {this.renderWorkStep()}
                     </div>
                 </div>
-                <div className='p-4 bg-primary'>
+                <div className='p-5 bg-primary'>
                     <div className='row'>
-                        <h2 className='text-white'><strong>Our Services</strong></h2>
+                        <h2 className='text-white pb-4'><strong>Our Services</strong></h2>
                         {this.renderServiceCard()}
                     </div>
                 </div>
                 <div className='p-5 text-center'>
-                    <h3 className='text-primary'><strong>More than 1000+ <br />Happy customer worldwide</strong></h3>
-                    <p>We have qualified design professionals to handle your project</p>
+                    <h3 className='text-primary'><strong>MORE THAN 1000+ 
+                     <br />HAPPY CUSTOMERS WORLDWIDE</strong></h3>
+                    <p>We have qualified design professionals to handle your project.</p>
                 </div>
             </>
         );
