@@ -1,0 +1,38 @@
+.text-primary{
+    color: #fa8a11 !important;
+}
+.bg-primary{
+    background-color: #fa8a11 !important;
+}
+.inline-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.inline-list>li {
+    display: inline-block;
+    margin: 0 30px;
+}
+@media screen  and (max-width: 700px){
+    .nav .heading{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .inline-list{
+        margin-left: 0;
+    }
+    .nav>div{
+        flex-wrap: wrap;
+    }
+}
+
+.footer{
+    background-color: #222831;
+}
+.social-links div{
+    margin-left: auto;
+}
