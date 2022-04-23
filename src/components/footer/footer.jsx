@@ -16,7 +16,7 @@ export default class Footer extends React.Component{
                     <div className="col-md-4">
                         <h3>Services</h3>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4" id='contact'>
                         <h3>Connect with us</h3>
                         <p className='m-0'>+917017968648</p>
                         <p className='m-0'>archifreelancer@gmail.com</p>

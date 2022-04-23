@@ -75,13 +75,13 @@ export default class Home extends React.Component
         return (
             <>
                 <HomeBanner />
-                <div className='p-4'>
+                <div className='p-4' id="how-it-works">
                     <div className='row'>
                         <h2 className='text-primary text-center mb-4'><strong>How Its works</strong></h2>
                         {this.renderWorkStep()}
                     </div>
                 </div>
-                <div className='p-5 bg-primary'>
+                <div className='p-5 bg-primary' id='services'>
                     <div className='row'>
                         <h2 className='text-white pb-4'><strong>Our Services</strong></h2>
                         {this.renderServiceCard()}

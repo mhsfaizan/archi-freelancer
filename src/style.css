@@ -48,6 +48,9 @@
     .nav>div{
         flex-wrap: wrap;
     }
+    .heading img{
+        height: 61px;
+    }
 }
 
 .footer{
