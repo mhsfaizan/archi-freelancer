@@ -18,6 +18,14 @@
 .nav-right{
     align-items: flex-end;
 }
+.nav-right li:first-child{
+    font-weight: 600;
+}
+.whatsapp-chat{
+    position: fixed;
+    bottom: 0px;
+    right: -12px;
+}
 .heading{
     flex-basis: 30%;
 }

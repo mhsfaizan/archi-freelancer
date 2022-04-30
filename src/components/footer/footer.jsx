@@ -34,6 +34,11 @@ export default class Footer extends React.Component{
                         </div>
                     </div>
                 </div>
+                <div class="whatsapp-chat">
+                    <a href="https://wa.me/+917017968648" rel="noreferrer" target="_blank">
+                        <img src="images/whatsapp.png" width="120px" alt="whatsapp" />
+                    </a>
+                </div>
             </div>
         );
     }
